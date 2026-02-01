@@ -1,0 +1,14 @@
+name: weight_cli
+description: A CLI tool that measures the emotional weight of text messages
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  args: ^2.4.2
+  yaml: ^3.1.2
+  io: ^1.0.4
+
+executables:
+  weight: weight_cli
